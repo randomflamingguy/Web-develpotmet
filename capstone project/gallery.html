@@ -6,6 +6,7 @@
     <title>Capstone</title>
     <style>
         body {
+            background-color: #deb878;
             margin: 0;
             font-family: Arial, Helvetica, sans-serif
         }
@@ -22,13 +23,49 @@
             font-size: 17px;
         }
         .topnav a:hover {
-            background-color: #ddd;
+            background-color: #00c4f5;
             color: black;
         }
         .topnav a.active {
             background-color: #ffe066;
             color: black;
         }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+        }
+        .carousel-container {
+
+             display: flex;
+
+            justify-content: center;
+
+             align-items: center;
+
+            height: 300px;} /* Adjust based on your image height */
+
+/* Hide all slides by default */
+
+        .myslides {
+
+            
+
+            max-height: 100%; /* Ensure images fit within container */
+
+            max-width: 100%;
+
+            }
+            .footer{
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            background-color: chocolate;
+            color: black;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -36,7 +73,28 @@
     <a class="active" href="index.html">Home</a>
     <a href="about.html">About us</a>
     <a href="contact.html">Contact us</a>
-    <a href="gallery.html">Gallery</a>
-  </div>  
+    <a href="gallery.html">Gallery</a>                        
+  </div>
+  <h1>My favourite places</h1>
+  <div class="carousel-container">
+  <img class="myslides" src="images/11`231121231312.jpeg" height="300px" width="300px" alt="Slide-1">
+  <img class="myslides" src="images/mamamsmwj.jpeg" height="300px" width="300px" alt="Slide-2">
+  <img class="myslides" src="images/skoolewq3e1231231232112ee12e21e21w.jpeg" height="300px" width="300px" alt="Slide-3">
+  </div>
+  <div class="footer"></div>
+    <p> &copy; all righs are reserved by codingal</p>
+      <i class="fa fa-envelope"></i>
+      <a href="randomflamingguy1@gmail.com">Our Email ID</a>
+      <br>
+      <br>
+      <br>
+      <a href="www.youtube.com"><img src="images/download.png" style="height:30px; width:50px;"
+        
+      ></a>
+      <a href="www.youtube.com"><img src="images/download.png"style="height:30px; width:50px;"></a>
+      <a href="www.youtube.com"><img src="images/download.png"style="height:30px; width:50px;"></a>
+      <br>
+      <small>Disclaimer:No guarantee disclaimers state that a business makes no promises regarding the outcome of using its product or service.</small>
+  </div>
 </body>
 </html>
